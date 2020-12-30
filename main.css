@@ -3,8 +3,15 @@ hr {
   border-top: 2px solid rgba(0,0,0,.1) !important;
 }
 
+.magical-type 
+{
+	color: #5b93d1;
+}
+
 .ability-params 
 {
+	white-space: nowrap;
+	text-transform: uppercase;
 	padding-left: 134px;
 	max-width: 800px;
 }
