@@ -54,7 +54,7 @@ hr {
 
 .sprite 
 {
-	width: 180px;
+	/*width: 180px;*/
 	background-color: #2e2e2e8f;
 	box-shadow: -1px 0px 20px 3px #00000047;
 	margin-top: 15px;
