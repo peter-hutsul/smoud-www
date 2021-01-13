@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Smoud - Atlas</title>
+        <title>Smoud - Perun</title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="../jquery.min.js"></script>
@@ -40,12 +40,12 @@
         <div class="card text-center">
             <div class="card-body">
                 <h1> 
-                    Atlas
+                    Perun
                 </h1>
                 <img src="./sprite.png" class="sprite">
                 <p class="my-3">
-                    <span>Melee</span>
-                    <span class="text-muted"> - Paladin - Initiator - Disabler - Nuker - Escape </span>
+                    <span>Ranged</span>
+                    <span class="text-muted"> - Nuker </span>
                 </p>
                 <hr>
             </div>
@@ -81,17 +81,17 @@
                         </div>
                         <div class="col-md-12 col-lg-9">
                             <div class="d-flex align-items-start mb-3">
-                                <img src="./ram_of_faith.jpg" class="icon-4">
+                                <img src="./lightning_bolt.jpg" class="icon-4">
                                 <div>
-                                    <h5>Ram of Faith</h5>
-                                    <div>Атлас разгоняется по прямых линиях разгоняя на своем пути врагов в резные стороны. Враги тем временем получают небольшой урон и оглушаются на 1 ход.</div>
+                                    <h5>Lightning Bolt</h5>
+                                    <div>Ударом молнии наносит врагу урон и снимает все положительные эффекты.</div>
                                 </div>
                             </div>
                             <div class="d-flex align-items-start mb-3">
-                                <img src="./heavenly_protect.jpg" class="icon-4">
+                                <img src="./ligtning_discharge.jpg" class="icon-4">
                                 <div>
-                                    <h5>Heavenly Protect</h5>
-                                    <div>Создает вокруг цели небесный щит, который дает невосприимчивость к заклинаниям и полное сопротивление магическому урону.</div>
+                                    <h5>Ligtning Discharge</h5>
+                                    <div>Выпускает молнию, которая перескакивает с одного врага на другого.</div>
                                 </div>
                             </div>
                             
@@ -110,7 +110,7 @@
                 <div class="card text-left">
                     <div class="card-body">
                         <p class="card-text">
-                            Могущественный титан предстал перед нами в образе носорога воителя, чтобы вновь показать свою силу и мудрость.
+                            Громовержец, управляющий силой молнии, который уничтожит любую цель в долю секунды.
                         </p>
                     </div>
                 </div>
@@ -187,17 +187,17 @@
                             <div class="card-body">
 
                                 <div class="d-flex align-items-start mb-3 ability-description">
-                                    <img src="./ram_of_faith.jpg" class="icon-3">
+                                    <img src="./lightning_bolt.jpg" class="icon-3">
                                     <div>
-                                        <h4>Ram of Faith</h4>
-                                        <div>Атлас разгоняется по прямых линиях разгоняя на своем пути врагов в резные стороны. Враги тем временем получают небольшой урон и оглушаются на 1 ход.</div>
+                                        <h4>Lightning Bolt</h4>
+                                        <div>Ударом молнии наносит врагу урон и снимает все положительные эффекты.</div>
                                     </div>
                                 </div>
 
                                 <div class="row ability-params">
 
                                     <div class="col-lg-4 col-md-12">
-                                        ABILITY: <span>Point target</span>
+                                        ABILITY: <span>Unit target</span>
                                         <br>
                                         Affects: <span>ENEMY UNITS</span>
                                         <br>
@@ -206,17 +206,13 @@
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
-                                        Radius: <span>2 / 3 / 4</span>
-                                        <br>
-                                        DAMAGE: <span>10 / 15 / 20</span>
-                                        <br>
-                                        Duration: <span>1</span>
+                                        DAMAGE: <span>20 / 35 / 60</span>
                                         <br>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
-                                        COOLDOWN: <span>6</span>
+                                        COOLDOWN: <span>10 / 5 / 3</span>
                                         <br>
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
                                         ENERGY COST: <span>12</span>
@@ -226,11 +222,8 @@
                                 </div>
 
                                 <div class="ability-preview d-flex flex-wrap">
-                                    <div><img src="./vfx/ram_of_faith2.jpg"></div> 
-                                    <div><img src="./vfx/ram_of_faith_1.jpg"></div>
-                                    <div><img src="./vfx/ram_of_faith_2.jpg"></div>
-                                    <div><img src="./vfx/ram_of_faith_3.jpg"></div>
-                                    
+                                    <div><img src="./vfx/lightning_bolt.jpg" height="350"></div> 
+                                    <div><img src="./vfx/lightning_bolt_1.jpg" height="350"></div> 
                                 </div>
                             </div>
                         </div>
@@ -241,10 +234,10 @@
                             <div class="card-body">
 
                                 <div class="d-flex align-items-start mb-3 ability-description">
-                                    <img src="./heavenly_protect.jpg" class="icon-3">
+                                    <img src="./ligtning_discharge.jpg" class="icon-3">
                                     <div>
-                                        <h4>Heavenly Protect</h4>
-                                        <div>Создает вокруг цели небесный щит, который дает невосприимчивость к заклинаниям и полное сопротивление магическому урону.
+                                        <h4>Ligtning Discharge</h4>
+                                        <div>Выпускает молнию, которая перескакивает с одного врага на другого.
                                         </div>
                                     </div>
                                 </div>
@@ -254,18 +247,26 @@
                                     <div class="col-lg-4 col-md-12">
                                         ABILITY: <span>Unit target</span>
                                         <br>
-                                        Affects: <span>ALLIED UNITS</span>
+                                        Affects: <span>ENEMY UNITS</span>
+                                        <br>
+                                        DAMAGE TYPE: <span class="magical-type">MAGICAL</span>
                                         <br>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
-                                        Duration: <span>5 / 8 / 10</span>
+                                        Radius: <span>6</span>
+                                        <br>
+                                        Quantity jumps: <span>4</span>
+                                        <br>
+                                        Area jumps: <span>1</span>
+                                        <br>
+                                        DAMAGE: <span>30 / 40 / 50</span>
                                         <br>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
-                                        COOLDOWN: <span>10 / 12 / 15</span>
+                                        COOLDOWN: <span>9 / 7 / 5</span>
                                         <br>
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
                                         ENERGY COST: <span>12</span>
@@ -274,9 +275,11 @@
 
                                 </div>
 
-                                <div class="ability-preview">
-                                        <div><img src="./vfx/heavenly_protect.jpg"></div>
-                                        <div><img src="./vfx/heavenly_protect.png"></div>
+                                <div class="ability-preview d-flex flex-wrap">
+                                        <div><img src="./vfx/ligtning_discharge.jpg" height="350"></div>
+                                        <div><img src="./vfx/ligtning_discharge_1.jpg" height="350"></div>
+                                        <div><img src="./vfx/ligtning_discharge_2.jpg" height="350"></div>
+                                        <div><img src="./vfx/ligtning_discharge_3.jpg" height="350"></div>
                                 </div>
 
                             </div>
