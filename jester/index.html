@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Smoud - Prophet</title>
+        <title>Smoud - Jester</title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="../jquery.min.js"></script>
@@ -40,12 +40,12 @@
         <div class="card text-center">
             <div class="card-body">
                 <h1> 
-                    Prophet
+                    Kingly jester
                 </h1>
                 <img src="./sprite.png" class="sprite">
                 <p class="my-3">
                     <span>Melee</span>
-                    <span class="text-muted"> - Sacrificer - Durable - Escape </span>
+                    <span class="text-muted"> - Magician - Escape - Disabler - Initiator  </span>
                 </p>
                 <hr>
             </div>
@@ -81,13 +81,20 @@
                         </div>
                         <div class="col-md-12 col-lg-9">
                             <div class="d-flex align-items-start mb-3">
-                                <img src="./shadow_form.jpg" class="icon-4">
+                                <img src="./mass_madness.jpg" class="icon-4">
                                 <div>
-                                    <h5>Shadow Form</h5>
-                                    <div>Герой получает полную защиту от физического урона.</div>
+                                    <h5>Mass Madness</h5>
+                                    <div>Герой вызывает безумие, не давая возможности врагу сделать желаемый ход.</div>
                                 </div>
                             </div>
-
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="./gospel.jpg" class="icon-4">
+                                <div>
+                                    <h5>Gospel</h5>
+                                    <div>Герой убеждает свою цель, что бы тот нанес себе урон.</div>
+                                </div>
+                            </div>
+                            
                         </div>
                         
                     </div>
@@ -103,7 +110,7 @@
                 <div class="card text-left">
                     <div class="card-body">
                         <p class="card-text">
-                            Существо способное предсказывать судьбы, и кто знает какая судьба вас ждет.
+                           Странник который может превратить в безумие любое действие, с ним следует быть очень осторожным.
                         </p>
                     </div>
                 </div>
@@ -180,44 +187,90 @@
                             <div class="card-body">
 
                                 <div class="d-flex align-items-start mb-3 ability-description">
-                                    <img src="./shadow_form.jpg" class="icon-3">
+                                    <img src="./mass_madness.jpg" class="icon-3">
                                     <div>
-                                        <h4>Shadow Form</h4>
-                                        <div>Герой получает полную защиту от физического урона.</div>
+                                        <h4>Mass Madness</h4>
+                                        <div>Герой вызывает безумие, не давая возможности врагу сделать желаемый ход.</div>
                                     </div>
                                 </div>
 
                                 <div class="row ability-params">
 
                                     <div class="col-lg-4 col-md-12">
-                                        ABILITY: <span>PASSIVE</span>
+                                        ABILITY: <span>No target</span>
+                                        <br>
+                                        Affects: <span>ENEMY UNITS</span>
                                         <br>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
-                                        Damage Absorption: <span>100%</span>
+                                        Duration: <span>7 / 10 / 15</span>
                                         <br>
-    
                                     </div>
 
-                                     <div class="col-lg-4 col-md-12">
+                                    <div class="col-lg-4 col-md-12">
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
-                                        COOLDOWN: <span>0</span>
+                                        COOLDOWN: <span>35</span>
                                         <br>
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
-                                        ENERGY COST: <span>0</span>
+                                        ENERGY COST: <span>12</span>
                                         <br>
                                     </div>
+
                                 </div>
 
                                 <div class="ability-preview d-flex flex-wrap">
-                                    <div><img src="./vfx/shadow_form_1.jpg" height="350"></div>
-                                    <div><img src="./vfx/shadow_form_1.png" height="350"></div>
+                                    <div><img src="./vfx/.jpg" height= "350"></div> 
 
                                 </div>
                             </div>
                         </div>
 
+                        <br>
+
+                        <div class="card text-left">
+                            <div class="card-body">
+
+                                <div class="d-flex align-items-start mb-3 ability-description">
+                                    <img src="./gospel.jpg" class="icon-3">
+                                    <div>
+                                        <h4>Gospel</h4>
+                                        <div>Герой убеждает свою цель, что бы тот нанес себе урон.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row ability-params">
+
+                                    <div class="col-lg-4 col-md-12">
+                                        ABILITY: <span>Unit target</span>
+                                        <br>
+                                        Affects: <span>Enemy UNITS</span>
+                                        <br>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                       
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
+                                        COOLDOWN: <span>10</span>
+                                        <br>
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
+                                        ENERGY COST: <span>12</span>
+                                        <br>
+                                    </div>
+
+                                </div>
+
+                                <div class="ability-preview d-flex flex-wrap">
+                                        <div><img src="./vfx/.jpg" height="350"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 

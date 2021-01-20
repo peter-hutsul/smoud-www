@@ -5,7 +5,17 @@ hr {
 
 .magical-type 
 {
-	color: #5b93d1;
+	color: #5b93d2;
+}
+
+.pure-type
+{
+	color: #d2bd5b;
+}
+
+.physical-type
+{
+	color: #af2f28;
 }
 
 .ability-params 

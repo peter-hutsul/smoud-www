@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Smoud - Prophet</title>
+        <title>Smoud - Knight</title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="../jquery.min.js"></script>
@@ -40,12 +40,12 @@
         <div class="card text-center">
             <div class="card-body">
                 <h1> 
-                    Prophet
+                    Comrade Commander
                 </h1>
                 <img src="./sprite.png" class="sprite">
                 <p class="my-3">
                     <span>Melee</span>
-                    <span class="text-muted"> - Sacrificer - Durable - Escape </span>
+                    <span class="text-muted"> - Warrior - Support - Durable</span>
                 </p>
                 <hr>
             </div>
@@ -81,10 +81,24 @@
                         </div>
                         <div class="col-md-12 col-lg-9">
                             <div class="d-flex align-items-start mb-3">
-                                <img src="./shadow_form.jpg" class="icon-4">
+                                <img src="./knight_punch.jpg" class="icon-4">
                                 <div>
-                                    <h5>Shadow Form</h5>
-                                    <div>Герой получает полную защиту от физического урона.</div>
+                                    <h5>Knight Punch</h5>
+                                    <div>Герой оглушает цель сильным ударом.</div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="./shield.jpg" class="icon-4">
+                                <div>
+                                    <h5>Shield</h5>
+                                    <div>Герой полностью блокирует любой физический урон.</div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="./treat_wounds.jpg" class="icon-4">
+                                <div>
+                                    <h5>Treat Wounds</h5>
+                                    <div>Каждый ход герой востанавливает несколько единиц здоровья.</div>
                                 </div>
                             </div>
 
@@ -103,7 +117,7 @@
                 <div class="card text-left">
                     <div class="card-body">
                         <p class="card-text">
-                            Существо способное предсказывать судьбы, и кто знает какая судьба вас ждет.
+                           Честь и слава - самые желаемые вещи которые наш командир пытается завоевать с самого детства, достигнув своего пика в военном деле.
                         </p>
                     </div>
                 </div>
@@ -180,10 +194,101 @@
                             <div class="card-body">
 
                                 <div class="d-flex align-items-start mb-3 ability-description">
-                                    <img src="./shadow_form.jpg" class="icon-3">
+                                    <img src="./knight_punch.jpg" class="icon-3">
                                     <div>
-                                        <h4>Shadow Form</h4>
-                                        <div>Герой получает полную защиту от физического урона.</div>
+                                        <h4>Knight Punch</h4>
+                                        <div>Герой оглушает цель сильным ударом.</div>
+                                    </div>
+                                </div>
+
+                                <div class="row ability-params">
+
+                                    <div class="col-lg-4 col-md-12">
+                                        ABILITY: <span>UNIT TARGET</span>
+                                        <br>
+                                        AFFECTS: <span>ENEMY UNITS</span>
+                                        <br>
+                                        DAMAGE TYPE: <span class="physical-type">Physical</span>
+                                        <br>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        RADIUS: <span>1</span>
+                                        <br>
+                                        DURATION: <span>3 / 5 / 5</span>
+                                        <br>
+                                        DAMAGE: <span>20 / 50 / 80</span>
+                                    </div>
+
+                                     <div class="col-lg-4 col-md-12">
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
+                                        COOLDOWN: <span>8</span>
+                                        <br>
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
+                                        ENERGY COST: <span>12</span>
+                                        <br>
+                                    </div>
+
+                                </div>
+
+                                <div class="ability-preview">
+                                    <div><img src="./vfx/.jpg" height="400"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="card text-left">
+                            <div class="card-body">
+
+                                <div class="d-flex align-items-start mb-3 ability-description">
+                                    <img src="./shield.jpg" class="icon-3">
+                                    <div>
+                                        <h4>Shield</h4>
+                                        <div>Герой полностью блокирует любой физический урон.</div>
+                                    </div>
+                                </div>
+
+                                <div class="row ability-params">
+
+                                    <div class="col-lg-4 col-md-12">
+                                        ABILITY: <span>NO TARGER, Invisible</span>
+                                        <br>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        MAX. DURATION: <span>6</span>
+                                        <br>
+                                    </div>
+
+                                     <div class="col-lg-4 col-md-12">
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
+                                        COOLDOWN: <span>10 / 8 / 6</span>
+                                        <br>
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
+                                        ENERGY COST: <span>12</span>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div class="ability-preview">
+                                    <div><img src="./vfx/.jpg" height="400"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="card text-left">
+                            <div class="card-body">
+
+                                <div class="d-flex align-items-start mb-3 ability-description">
+                                    <img src="./treat_wounds.jpg" class="icon-3">
+                                    <div>
+                                        <h4>Treat Wounds</h4>
+                                        <div>Каждый ход герой востанавливает несколько единиц здоровья.</div>
                                     </div>
                                 </div>
 
@@ -195,12 +300,11 @@
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
-                                        Damage Absorption: <span>100%</span>
+                                        HEAL: <span>4 / 10 / 20</span>
                                         <br>
-    
                                     </div>
 
-                                     <div class="col-lg-4 col-md-12">
+                                    <div class="col-lg-4 col-md-12">
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
                                         COOLDOWN: <span>0</span>
                                         <br>
@@ -208,16 +312,14 @@
                                         ENERGY COST: <span>0</span>
                                         <br>
                                     </div>
+                                    
                                 </div>
 
                                 <div class="ability-preview d-flex flex-wrap">
-                                    <div><img src="./vfx/shadow_form_1.jpg" height="350"></div>
-                                    <div><img src="./vfx/shadow_form_1.png" height="350"></div>
-
+                                    <div><img src="./vfx/.jpg" height="350"></div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
 

@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Smoud - Prophet</title>
+        <title>Smoud - Jack</title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="../jquery.min.js"></script>
@@ -40,12 +40,12 @@
         <div class="card text-center">
             <div class="card-body">
                 <h1> 
-                    Prophet
+                    Jack
                 </h1>
                 <img src="./sprite.png" class="sprite">
                 <p class="my-3">
-                    <span>Melee</span>
-                    <span class="text-muted"> - Sacrificer - Durable - Escape </span>
+                    <span>Ranged</span>
+                    <span class="text-muted"> - Deamon - Disabler - Initiator - Nuker </span>
                 </p>
                 <hr>
             </div>
@@ -81,10 +81,17 @@
                         </div>
                         <div class="col-md-12 col-lg-9">
                             <div class="d-flex align-items-start mb-3">
-                                <img src="./shadow_form.jpg" class="icon-4">
+                                <img src="./call_from_the_pit.jpg" class="icon-4">
                                 <div>
-                                    <h5>Shadow Form</h5>
-                                    <div>Герой получает полную защиту от физического урона.</div>
+                                    <h5>Call from the Pit</h5>
+                                    <div>Герой превращается в могущественного демона.</div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <img src="./arcane_invasion.jpg" class="icon-4">
+                                <div>
+                                    <h5>Arcane Invasion</h5>
+                                    <div>Герой накладывает проклятие на врага, которое после 5 ходов наносит урон от максимального здоровья цели.</div>
                                 </div>
                             </div>
 
@@ -103,7 +110,7 @@
                 <div class="card text-left">
                     <div class="card-body">
                         <p class="card-text">
-                            Существо способное предсказывать судьбы, и кто знает какая судьба вас ждет.
+                             Демон который постает в двух обликах но все еще такой же коварный и такой же сильный. Мало кто сможет устоять перед его мощью.
                         </p>
                     </div>
                 </div>
@@ -180,41 +187,90 @@
                             <div class="card-body">
 
                                 <div class="d-flex align-items-start mb-3 ability-description">
-                                    <img src="./shadow_form.jpg" class="icon-3">
+                                    <img src="./call_from_the_pit.jpg" class="icon-3">
                                     <div>
-                                        <h4>Shadow Form</h4>
-                                        <div>Герой получает полную защиту от физического урона.</div>
+                                        <h4>Call from the Pit</h4>
+                                        <div>Герой превращается в могущественного демона.</div>
                                     </div>
                                 </div>
 
                                 <div class="row ability-params">
 
                                     <div class="col-lg-4 col-md-12">
-                                        ABILITY: <span>PASSIVE</span>
+                                        ABILITY: <span>NO TARGET</span>
                                         <br>
                                     </div>
 
                                     <div class="col-lg-4 col-md-12">
-                                        Damage Absorption: <span>100%</span>
+                                        DURATION: <span>7</span>
                                         <br>
-    
+                                        BONUS HEALTH: <span>150 / 300 / 500</span>
+                                        <br>
+                                        BONUS DAMAGE: <span>50 / 80 / 130</span>
+                                        <br>
+                                        </div>
+
+                                     <div class="col-lg-4 col-md-12">
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
+                                        COOLDOWN: <span>10 / 15 / 20</span>
+                                        <br>
+                                        <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
+                                        ENERGY COST: <span>12</span>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div class="ability-preview">
+                                    <div><img src="./vfx/.jpg" height="350" ></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="card text-left">
+                            <div class="card-body">
+
+                                <div class="d-flex align-items-start mb-3 ability-description">
+                                    <img src="./arcane_invasion.jpg" class="icon-3">
+                                    <div>
+                                        <h4>Arcane Invasion</h4>
+                                        <div>Герой накладывает проклятие на врага, которое после 5 ходов наносит урон от максимального здоровья цели.</div>
+                                    </div>
+                                </div>
+
+                                <div class="row ability-params">
+
+                                    <div class="col-lg-4 col-md-12">
+                                        ABILITY: <span>UNIT TARGET</span>
+                                        <br>
+                                        AFFECTS: <span>ENEMY UNITS</span>
+                                        <br>
+                                        DAMAGE TYPE: <span class="magical-type">MAGICAL</span>
+                                        <br>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12">
+                                        RADIUS: <span>6</span>
+                                        <br>
+                                        DAMAGE: <span>50%</span>
+                                        <br>
                                     </div>
 
                                      <div class="col-lg-4 col-md-12">
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/cooldown.png">
-                                        COOLDOWN: <span>0</span>
+                                        COOLDOWN: <span>35</span>
                                         <br>
                                         <img class="mr-2 icon-16" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/tooltips/mana.png">
-                                        ENERGY COST: <span>0</span>
+                                        ENERGY COST: <span>12</span>
                                         <br>
                                     </div>
                                 </div>
 
-                                <div class="ability-preview d-flex flex-wrap">
-                                    <div><img src="./vfx/shadow_form_1.jpg" height="350"></div>
-                                    <div><img src="./vfx/shadow_form_1.png" height="350"></div>
-
+                                <div class="ability-preview">
+                                    <div><img src="./vfx/.jpg" height="350"></div>
                                 </div>
+
                             </div>
                         </div>
 
